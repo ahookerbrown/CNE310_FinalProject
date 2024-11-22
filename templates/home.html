@@ -62,7 +62,7 @@
 				</td>
 				{% endfor %}
 				</tr>
-<!-- 			
+
 			<tr id="productPrice">
 				{% for row in data %}
 				<td>
@@ -71,24 +71,25 @@
 				{% endfor %}
 			</tr>
 
- -->		
+
  			<tr id = "">
  			{%for row in data%}
         		<!-- <td><input type="text" size="10"/></td> -->
         		<td>
         			<a href="/productDescription?productId={{row[0]}}">
 						Product Details
-						
-						<!-- <img src={{ url_for('static', filename='uploads/' + row[4]) }} id="itemImage" /> -->
+
+						<!--<img src={{ url_for('static', filename='uploads/' + row[4]) }} id="itemImage" /> -->
 					</a>
         		</td>
     		{% endfor %}
     		</tr>
-    		
+
 		</table>
 		{% endfor %}
 	</div>
 </div>
 </body>
 </html>
+
 
